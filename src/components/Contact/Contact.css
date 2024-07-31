@@ -1,0 +1,24 @@
+.contact {
+  flex-direction: column;
+}
+.alignmain {
+  margin-left: 6em;
+}
+.alignmain1 {
+  margin-left: 8em;
+}
+input.form-control {
+  background-color: whitesmoke;
+  color: black;
+}
+textarea.form-control {
+    background-color: whitesmoke;
+    color: black;
+}
+textarea {
+  resize: none;
+}
+.submito{
+  margin-left: 15em;
+  margin-top: 3em;
+}
