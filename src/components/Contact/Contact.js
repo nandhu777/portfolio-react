@@ -18,7 +18,7 @@ const Contact = () => {
 
         console.log(register);
         axios
-        .post("http://localhost:5000/send-contact", register)
+        .post("http://localhost:8080/send-contact", register)
         .then((response) => {
           document.getElementById("demo").innerHTML = response.data;
    

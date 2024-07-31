@@ -15,7 +15,7 @@ const About = () => {
     console.log(emailAddress);
     // Handle validations
     axios
-      .post("http://localhost:5000/send-mail", { emailAddress })
+      .post("http://localhost:8080/send-mail", { emailAddress })
       .then((response) => {
         document.getElementById("demo").innerHTML = response.data;
  
